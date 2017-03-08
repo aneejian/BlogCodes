@@ -1,0 +1,21 @@
+<div class="cls-content">
+	<div id="viewMoreDataDiv{{customdata.id}}" class="cls-description-content">
+		<div style="background-color: #81bd00;color: white; border-radius:2px">
+			<h3 style="padding: 5px; margin-left: 5px;">
+				{{customdata.itemTitle}}
+			</h3>
+		</div>
+		<span>
+			{{customdata.itemDescription}}
+		</span>
+	</div>
+	<div id="viewMoreDiv{{customdata.id}}" style="color: #81bd00;">
+		<hr style="margin-bottom: 10px;" />
+		<div id="viewMore{{customdata.id}}">
+			<span class="vmbtn" align="center" ng-click="showMore(customdata.id)">View more</span>
+		</div>
+		<div id="viewLess{{customdata.id}}" hidden="hidden">
+			<span class="vmbtn" align="center" ng-click="showLess(customdata.id)">View less</span>
+		</div>
+	</div>
+</div>
