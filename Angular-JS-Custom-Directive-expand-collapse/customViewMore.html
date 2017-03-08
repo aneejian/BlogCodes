@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html data-ng-app="demoApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Custom View More</title>
+
+    <script type="text/javascript" src="scripts/angular.min.js"></script>
+    <script type="text/javascript"src="scripts/jquery.min.js"></script>
+
+    <script type="text/javascript" src="controller/DemoController.js"></script>
+    <script type="text/javascript" src="directive/viewMoreDirective.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/customStyles.css">
+</head>
+<body ng-controller="DemoController">
+    <h1>Angular JS custom directive for expand/ collapse</h1>
+    <p>
+        This tutorial shows you how to create a custom directive to implement expand/ collapse in a list of items.
+    </p>
+    <div>
+        <div ng-repeat="data in customDataList" style="width: 95%;margin-top: 10px;">
+            <view-more customdata="data" callback="updateData(data, cbFn)"></view-more>
+        </div>
+
+    </div>
+</body>
+</html>

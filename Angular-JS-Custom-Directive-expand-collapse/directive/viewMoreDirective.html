@@ -1,0 +1,32 @@
+<!-- Created by Jeena John on 12/05/2015 -->
+
+<div class="cls-content">
+    <div id="viewMoreDataDiv{{customdata.id}}" class="cls-description-content" >
+
+        <div style="background-color: #69c773;color: white;">
+            <h3 style="padding: 5px; margin-left: 5px;">
+                {{customdata.itemTitle}}
+                <img src="images/refresh_icon.png" ng-click="updateData()" style="position: relative; float: right;cursor: pointer;">
+            </h3>
+
+        </div>
+        <img ng-src="images/{{customdata.imageName}}" style="height: 75px;" >
+        <span>
+            {{customdata.itemDescription}}
+        </span>
+    </div>
+
+    <div id="viewMoreDiv{{customdata.id}}" style="color: #69c773;">
+        <hr style="margin-bottom: 10px;" />
+
+        <div id="viewMore{{customdata.id}}" ng-click="showMore(customdata.id)" style="cursor: pointer">
+            <img src="images/expand.png" align="center">
+            <span align="center">View more</span>
+        </div>
+        <div id="viewLess{{customdata.id}}" ng-click="showLess(customdata.id)" hidden="hidden" style="cursor: pointer">
+            <img src="images/collapse.png" align="center">
+            <span align="center">View less</span>
+        </div>
+    </div>
+
+</div>
