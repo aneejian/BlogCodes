@@ -11,8 +11,8 @@
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-    font-size: 12px;
-	text-align: right;
+    font-size: 12px !important;
+	text-align: right !important;
 }
 .jump-link a {
 background-color: white; 
