@@ -11,7 +11,7 @@
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16px;
 }
 .jump-link a {
 	background-color: white; 
