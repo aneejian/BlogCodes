@@ -4,6 +4,10 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
 
 /* Style to customize Read More link - Start */
+.jump-link {
+  text-align: center; /* center the button-can also use left or right */ 
+  background: transparent;
+}
 .jump-link a {
 	position: relative;
 	display: inline-block;
