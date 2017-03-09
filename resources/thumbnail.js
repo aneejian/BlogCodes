@@ -1,7 +1,7 @@
-posts_no_thumb_sum = 660;
-posts_thumb_sum = 330;
-img_thumb_height = 200;
-img_thumb_width = 400;
+posts_no_thumb_sum = 490;
+posts_thumb_sum = 400;
+img_thumb_height = 75;
+img_thumb_width = 110;
 function removeHtmlTag(strx,chop){
 if(strx.indexOf("<")!=-1)
 {
@@ -18,7 +18,7 @@ while(strx.charAt(chop-1)!=' ' && strx.indexOf(' ',chop)!=-1) chop++;
 strx = strx.substring(0,chop-1);
 return strx+'...';
 }
-function createSummaryAndThumb(pID, pURL, pTITLE){
+function createSummaryAndThumb(pID, pURL, pTITLE, pDATA){
 var div = document.getElementById(pID);
 var imgtag = "";
 var img = div.getElementsByTagName("img");
@@ -27,6 +27,6 @@ if(img.length>=1) {
 imgtag = '<span class="posts-thumb" style="float:left; margin-right: 10px;"><a href="'+ pURL +'" title="'+ pTITLE+'"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px" /></a></span>';
 summ = posts_thumb_sum;
 }
-var summary = imgtag;
+var summary = imgtag + '<div>' + pDATA + '</div>';
 div.innerHTML = summary;
 }
