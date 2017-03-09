@@ -2,6 +2,7 @@ posts_no_thumb_sum = 800;
 posts_thumb_sum = 700;
 img_thumb_height = 200;
 img_thumb_width = 400;
+default_thumbnail = "https://cdn.rawgit.com/aneejian/BlogCodes/master/resources/defaultthumbnail.png";
 function removeHtmlTag(strx,chop){
 if(strx.indexOf("<")!=-1)
 {
@@ -25,6 +26,11 @@ var img = div.getElementsByTagName("img");
 var summ = posts_no_thumb_sum;
 if(img.length>=1) {
 imgtag = '<span class="posts-thumb" style="float:left; margin-right: 10px;"><a href="'+ pURL +'" title="'+ pTITLE+'"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px" /></a></span>';
+summ = posts_thumb_sum;
+}
+else
+{
+imgtag = '<span class="posts-thumb" style="float:left; margin-right: 10px;"><a href="'+ pURL +'" title="'+ pTITLE+'"><img src="'+default_thumbnail+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px" /></a></span>';
 summ = posts_thumb_sum;
 }
 var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
