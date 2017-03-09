@@ -6,7 +6,7 @@
 /* Style to customize Read More link - Start */
 .jump-link { 
 text-align: right; /* align right of post - can also use left or center */ 
-background: #333333; /* change background colour for full width of jump link */
+/*background: #333333; /* change background colour for full width of jump link */
 }
 
 .jump-link a { 
