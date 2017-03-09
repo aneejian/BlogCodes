@@ -1,9 +1,7 @@
+posts_no_thumb_sum = 490;
 posts_thumb_sum = 400;
 img_thumb_height = 160;
 img_thumb_width = 180;
-</script>
-<script type='text/javascript'>
-//<![CDATA[
 function removeHtmlTag(strx,chop){
 if(strx.indexOf("<")!=-1)
 {
@@ -29,19 +27,6 @@ if(img.length>=1) {
 imgtag = '<span class="posts-thumb" style="float:left; margin-right: 10px;"><a href="'+ pURL +'" title="'+ pTITLE+'"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px" /></a></span>';
 summ = posts_thumb_sum;
 }
-
 var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
 div.innerHTML = summary;
 }
-//]]>
-</script>
-
-<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-<b:if cond='data:blog.pageType != &quot;item&quot;'>
-<style type='text/css'>
-.post-footer {display: none;}
-.post {margin-bottom: 10px; border-bottom: 1px dotted #E6E6E6; padding-bottom: 20px;}
- .readmore a {text-decoration: none; }
-</style>
-</b:if>
-</b:if>
