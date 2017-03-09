@@ -3,6 +3,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/toolbar/prism-toolbar.min.css);
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
 
+/* Style to customize Read More link - Start */
 .jump-link { 
 text-align: right; /* align right of post - can also use left or center */ 
 background: #333333; /* change background colour for full width of jump link */
@@ -21,3 +22,4 @@ background: #eeeeee; /* change background colour on hover */
 color: #333333; /* change text colour on hover */ 
 text-decoration: none; /* no text underline on hover */ 
 }
+/* Style to customize Read More link - End */
