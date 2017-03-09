@@ -1,5 +1,5 @@
-posts_no_thumb_sum = 490;
-posts_thumb_sum = 400;
+posts_no_thumb_sum = 660;
+posts_thumb_sum = 330;
 img_thumb_height = 75;
 img_thumb_width = 110;
 function removeHtmlTag(strx,chop){
