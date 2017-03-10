@@ -1,9 +1,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-coy.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/toolbar/prism-toolbar.min.css);
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
 
-/* Style to customize Read More link - Start */
+/* Style to customize Read More link - Start
 .jump-link {
 	background-color: transparent;
 	border: none;
