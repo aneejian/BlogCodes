@@ -1,0 +1,34 @@
+.pen-table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #0cc;    
+}
+
+.pen-table tr:hover {
+    background: #f4f4f4
+}
+
+.pen-table tr:hover td {
+    color: #555
+}
+
+.pen-table td,
+.pen-table th {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse
+}
+
+.pen-table th {
+    background: #0cc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+.pen-table th.last {
+    border-right: none
+}
