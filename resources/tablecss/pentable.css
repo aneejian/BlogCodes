@@ -10,6 +10,10 @@
     background: #f4f4f4  !important;
 }
 
+.pen-table tr {
+box-shadow: none !important;
+}
+
 .pen-table tr:hover td {
     color: #555  !important;
 }
