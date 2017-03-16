@@ -22,7 +22,7 @@
 }
 
 .pen-table th {
-    background: #ff3d00;
+    background: #ff3d00 !important;
     color: #fff !important;
     text-align: center !important;
 }
