@@ -383,9 +383,8 @@
   },
   "css": [
     "tables.less",
-    "forms.less",
     "buttons.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=00ba40136a7690e3ef5882b34676e1e7"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=b2428439dc4a5c4aa85cd7e953b263fa"
 }
