@@ -2,7 +2,6 @@ html, body {
   width: 100%;
   font-family: Lato;
 }
-
 .quiz-question {
   width: 100%;
   max-width: 500px;
@@ -13,7 +12,6 @@ html, body {
   font-size: 32px;
   margin-bottom: 20px;
 }
-
 .quiz-answers {
   text-align: center;
   width: 250px;
@@ -25,7 +23,6 @@ html, body {
   float: left;
   clear: both;
 }
-
 .sweet-alert button {
  border-radius: 0;
     text-transform: uppercase;
@@ -35,26 +32,20 @@ html, body {
   margin-top: 10px;
   background-color: #ddd;
   border-radius: 0;
-  text-transform: uppercase;
   white-space: normal !important;
   max-width: 250px;
   width: 250px;
 }
-
 .quiz-button.btn:hover {
   background-color: #0096D2;
   color: #fff;
 }
-
-
-
 .question-image {
     width: 100%;
     max-width: 500px;
     margin-bottom: -80px;
     margin: 0 auto;
 }
-
 .question-image img,
 .results-ratio,
 .results-social,
@@ -65,16 +56,13 @@ html, body {
   text-align: center;
   padding-top: 20px !important;
 }
-
 .results-ratio,
 .results-social,
 .quiz-title {
   max-width: 600px;
 }
-
 .question-image img {
   margin-top: 20px;
-
 }
 .results-social{
  display: table;
@@ -84,20 +72,17 @@ html, body {
   font-style: italic;
   font-family: Georgia, serif;
 }
-
 .quiz-title {
   font-size: 60px;
   font-weight: 300;
   margin-top: 100px;
   margin-bottom: 30px;
 }
-
 .results-ratio {
   margin: 20px auto;
   font-size: 24px;
   font-weight: bold;
 }
-
 .results-social {
     width: 270px;
     clear: both;
@@ -107,11 +92,9 @@ html, body {
   margin-bottom: 20px;
   width: 275px;
 }
-
 .results-social a:not(:first-child) {
   margin-left: 20px;
 }
-
 .progress-circles {
   position: relative;
   padding: 0;
@@ -122,15 +105,12 @@ html, body {
   top: 40px;
   display: none;
 }
-
 .progress-circles.show {
   display: block;
 }
-
 .show{
  display:table !important; 
 }
-
 .progress-circles li{
   list-style: none;
   display: inline-block;
@@ -143,12 +123,10 @@ html, body {
 .progress-circles li.dark{
   background: #1696d2;
 }
-
-
 .follow-tw {
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url(icons-s973202652e.png);
+  background-image: url("https://cdn.rawgit.com/aneejian/BlogCodes/master/quiz/quizIcons.png");
   background-position: 0 -993px;
   height: 32px;
   width: 32px;
@@ -159,7 +137,7 @@ html, body {
 .follow-fb {
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url(icons-s973202652e.png);
+  background-image: url("https://cdn.rawgit.com/aneejian/BlogCodes/master/quiz/quizIcons.png");
   background-position: 0 -1880px;
   height: 32px;
   width: 32px;
