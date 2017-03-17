@@ -1,0 +1,136 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "ng-app",
+        "ng-state",
+        "ng-bind",
+        "ng-model"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 1,
+      "prompt": "Which of the following is not a core AngularJS directive?"
+    },
+    {
+      "answers": [
+        "Deep linking refers to linking various views to a central page.",
+        "Deep linking is a SEO based technique.",
+        "Deep linking allows you to encode the state of application in the URL so that it can be bookmarked.",
+        "None of these."
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 2,
+      "prompt": "What is deep linking in AngularJS?"
+    },
+    {
+      "answers": [
+        "Scopes define the accessibility of a javascript variable.",
+        "Scopes are objects that refer to the model. They act as glue between controller and view.",
+        "Scopes are objects that refer to the controller.",
+        "Scopes are objects that refer to views."
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 3,
+      "prompt": "What are scopes in AngularJS?"
+    },
+    {
+      "answers": [
+        "Services are objects which AngularJS uses internally.",
+        "Services are not used in AngularJS.",
+        "Services are singleton objects which are instantiated only once in app and are used to do the defined task.",
+        "Services are server side components of AngularJS."
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 4,
+      "prompt": "What are services in AngularJS?"
+    },
+    {
+      "answers": [
+        "$dirty flag states that value has been changed.",
+        "$dirty flag states that form has invalid data.",
+        "Both of the above.",
+        "None of these."
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 5,
+      "prompt": "Which of the following is true about $dirty flag?"
+    },
+    {
+      "answers": [
+        "double braces like {{expression}}",
+        "single brace like {expression}",
+        "small bracket like (expression)",
+        "capital bracket like [expression]"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 6,
+      "prompt": "AngularJS expressions are written using?"
+    },
+    {
+      "answers": [
+        "Model View Control",
+        "Model View Controller",
+        "Main View Controller",
+        "Main View Control"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 7,
+      "prompt": "MVC stands for?"
+    },
+    {
+      "answers": [
+        "Model represents server side data.",
+        "Model represents data stored in database.",
+        "Model is the lowest level of the pattern responsible for maintaining data.",
+        "None of these."
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 8,
+      "prompt": "What is Model in MVC?"
+    },
+    {
+      "answers": [
+        "View represents a database view.",
+        "View is responsible for displaying all or a portion of the data to the user.",
+        "View is responsible to act and process the data.",
+        "None of these."
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 9,
+      "prompt": "What is View in MVC?"
+    },
+    {
+      "answers": [
+        "It is a software Code that stores the data.",
+        "It is a software Code that renders the user interface.",
+        "It is a software Code that controls the interactions between the Model and View.",
+		"None of these."
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 10,
+      "prompt": "What is Controller in MVC?"
+    }
+  ],
+  "title": "AngularJS Quiz 1",
+  "url": "http://www.aneejian.com"
+}
