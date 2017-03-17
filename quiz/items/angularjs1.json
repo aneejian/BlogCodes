@@ -122,7 +122,7 @@
         "It is a software Code that stores the data.",
         "It is a software Code that renders the user interface.",
         "It is a software Code that controls the interactions between the Model and View.",
-		"None of these."
+	"None of these."
       ],
       "correct": {
         "index": 2
@@ -132,5 +132,6 @@
     }
   ],
   "title": "AngularJS Quiz 1",
-  "url": "http://www.aneejian.com"
+  "url": "http://www.aneejian.com/2015/10/angularjs-quiz-1.html"
+  "tags": "#AngularJS #Quiz"
 }
