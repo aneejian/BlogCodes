@@ -35,7 +35,7 @@ html, body {
   margin-top: 10px;
   background-color: #ddd;
   border-radius: 0;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   white-space: normal !important;
   max-width: 250px;
   width: 250px;
@@ -167,7 +167,6 @@ html, body {
 .follow-fb:hover{
  background-position: 0 -1433px;   
 }
-
 @media (max-width: 540px){
 .quiz-question{
   font-size: 20px;
