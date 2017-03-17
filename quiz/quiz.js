@@ -337,7 +337,7 @@ function tweet(state, opts) {
   var body = (
     "I got " + state.correct +
     " out of " + state.total +
-    " on @aneejian’s \"" + opts.title +
+    " on @aneejian’s \"" + opts.tags + " " + opts.title +
     "\" quiz. Test your knowledge here: " + opts.url
   );
 
