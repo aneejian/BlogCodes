@@ -4,17 +4,14 @@ html, body {
 }
 .quiz-question {
   width: 100%;
-  max-width: 500px;
   display: block;
   margin: 0 auto;
-  text-align: center;
   margin-top: 30px;
   font-size: 32px;
   margin-bottom: 20px;
 }
 .quiz-answers {
-  text-align: center;
-  width: 250px;
+  width: 100%;
   margin: 0 auto;
   display: block;
   padding-bottom: 5px;
@@ -30,14 +27,14 @@ html, body {
 }
 .quiz-button.btn {
   margin-top: 10px;
-  background-color: #ddd;
+  background-color: #0096D2;
   border-radius: 0;
   white-space: normal !important;
   max-width: 250px;
   width: 250px;
 }
 .quiz-button.btn:hover {
-  background-color: #0096D2;
+  background-color: #ddd;
   color: #fff;
 }
 .question-image {
