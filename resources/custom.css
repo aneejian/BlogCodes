@@ -1,32 +1,11 @@
+/* Prism JS CSS */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-coy.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/toolbar/prism-toolbar.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-highlight/prism-line-highlight.min.css);
-@import url(https://cdn.rawgit.com/aneejian/BlogCodes/master/resources/sitemap.css);
-
-/* Style to customize Read More link - Start
-.jump-link {
-	background-color: transparent;
-	border: none;
-	color: white;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	cursor: pointer;    
-	text-align: right !important;
-}
-.jump-link a {
-	background-color: white; 
-	color: black; 
-	border: 2px solid #4CAF50;
-	padding: 6px 12px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	margin: 4px 2px;
-	font-size: 12px !important;
-}
-	.jump-link a:hover {
-	background-color: #4CAF50;
-	color: white;
-} 
-/* Style to customize Read More link - End */
+/* Buttons2 CSS */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/css/buttons.min.css);
+/* Pen Table */
+@import url(https://cdn.rawgit.com/aneejian/BlogCodes/00285117/resources/tablecss/pentable.css);
+/* Bootstrap ISO */
+@import url(https://cdn.rawgit.com/aneejian/BlogCodes/1e1a8bdc/bootstrap/bootstrap-isov337.min.css);
