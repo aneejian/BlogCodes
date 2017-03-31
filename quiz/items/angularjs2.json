@@ -1,0 +1,137 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Embed JS files within a HTML page using ng-include directive",
+        "Embed HTML pages within a HTML page using ng-include directive",
+        "Both of the above",
+        "None of the above"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 1,
+      "prompt": "Which of the following is true about ng-include directive?"
+    },
+    {
+      "answers": [
+        "ng-show directive can show a given control",
+        "ng-show directive can hide a given control",
+        "Both of the above",
+        "None of the above"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 2,
+      "prompt": "Which of the following is true about ng-show directive?"
+    },
+    {
+      "answers": [
+        "Element directives",
+        "Attribute",
+        "CSS",
+        "All of the above"
+      ],
+      "correct": {
+        "index": 3
+      },
+      "number": 3,
+      "prompt": "On which of the following types of component can we create a custom directive?"
+    },
+    {
+      "answers": [
+        "angular.module is used to create AngularJS modules along with its dependent modules",
+        "angular.module is primarily used to create application module",
+        "Both of the above",
+        "None of the above"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 4,
+      "prompt": "How angular.module works?"
+    },
+    {
+      "answers": [
+        "value",
+        "factory",
+        "service",
+        "All of the above"
+      ],
+      "correct": {
+        "index": 3
+      },
+      "number": 5,
+      "prompt": "Which components can be injected as a dependency in AngularJS?"
+    },
+    {
+      "answers": [
+        "$error states that form has invalid data",
+        "$error states the exact error",
+        "Both of the above",
+        "None of the above"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 6,
+      "prompt": "Which of the following is true about $error?"
+    },
+    {
+      "answers": [
+        "ng-hide directive can show a given control",
+        "ng-hide directive can hide a given control",
+        "Both of the above",
+        "None of the above"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 7,
+      "prompt": "Which of the following is true about ng-hide directive?"
+    },
+    {
+      "answers": [
+        "Model",
+        "View",
+        "Controller",
+        "Module"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 8,
+      "prompt": "AngularJS directives are used in?"
+    },
+    {
+      "answers": [
+        "angular.module();",
+        "var myModule = new module();",
+        "module.create();",
+        "angular.create();"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 9,
+      "prompt": "AngularJS module can be created using?"
+    },
+    {
+      "answers": [
+        "ng-required",
+        "ng-minlength",
+        "ng-pattern",
+		"All of the above"
+      ],
+      "correct": {
+        "index": 3
+      },
+      "number": 10,
+      "prompt": "Which of the followings are validation directives?"
+    }
+  ],
+  "title": "AngularJS Quiz 2",
+  "url": "http://www.aneejian.com/2017/03/angularjs-quiz-2.html"
+  "tags": "#angularjs #quiz"
+}
