@@ -2,6 +2,9 @@ html, body {
   width: 100%;
   font-family: Lato;
 }
+#quiz .tagdiv-type ul li:not(.blocks-gallery-item):last-child, .tagdiv-type ol li:not(.blocks-gallery-item):last-child {
+margin-bottom: 10px;
+}
 .quiz-question {
   width: 100%;
   display: block;
