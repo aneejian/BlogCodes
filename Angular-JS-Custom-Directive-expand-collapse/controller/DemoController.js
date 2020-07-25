@@ -2,10 +2,10 @@
  * Created by Aneejian on 14-05-2015.
  */
 
-<!--Creating the module-->
+// Creating the module
 var demoApp = angular.module('demoApp', []);
 
-<!--Creating the controller-->
+// Creating the controller
 demoApp.controller('DemoController', ['$scope', '$http', function($scope, $http) {
 
     $http.get('json/customDataSet1.json')
