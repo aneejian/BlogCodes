@@ -10,7 +10,7 @@ demoApp.controller('DemoController', ['$scope', '$http', function($scope, $http)
     
     $http.get('json/customDataSet1.json')
         .then(function(res){
-            $scope.customDataList = [...res.data];
+            $scope.customDataList = JSON.parse(JSON.stringify(res.data));
             $scope.customDataSet1 = res.data;            
         });
 
@@ -36,7 +36,6 @@ demoApp.controller('DemoController', ['$scope', '$http', function($scope, $http)
     };
 
     var cloneObject = function (obj) {
-        // return JSON.parse(JSON.stringify(obj));
-        return angular.copy(obj);
+        return JSON.parse(JSON.stringify(obj));
     }
 }]);
