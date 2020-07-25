@@ -11,10 +11,6 @@ demoApp.controller('DemoController', ['$scope', '$http', function($scope, $http)
     $http.get('json/customDataSet1.json')
         .then(function(res){
             $scope.customDataList = res.data;
-        });
-    
-    $http.get('json/customDataSet1.json')
-        .then(function(res){
             $scope.customDataSet1 = res.data;            
         });
 
