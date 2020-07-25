@@ -10,8 +10,8 @@ demoApp.controller('DemoController', ['$scope', '$http', function($scope, $http)
     
     $http.get('json/customDataSet1.json')
         .then(function(res){
-            $scope.customDataSet1 = res.data;
             $scope.customDataList = res.data;
+            $scope.customDataSet1 = res.data;            
         });
 
     $http.get('json/customDataSet2.json')
