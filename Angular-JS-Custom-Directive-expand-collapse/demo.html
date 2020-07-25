@@ -14,9 +14,6 @@
 
 <body ng-controller="DemoController">
     <h1>Angular JS custom directive for expand / collapse</h1>
-    <p>
-        Visit <a href="https://aneejian.com/angularjs-custom-directive-expand-collapse/" target="_blank">aneejian.com</a> to view a tutorial on how to create this custom directive.
-    </p>
     <div>
         <div ng-repeat="data in customDataList" style="width: 95%;margin-top: 10px;">
             <view-more customdata="data" callback="updateData(data, cbFn)"></view-more>
