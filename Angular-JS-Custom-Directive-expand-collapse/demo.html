@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html data-ng-app="demoApp">
+
 <head lang="en">
     <link rel="icon" href="favicon.svg">
     <meta charset="UTF-8">
     <title>Custom View More</title>
-
     <script type="text/javascript" src="scripts/angular.min.js"></script>
-    <script type="text/javascript"src="scripts/jquery.min.js"></script>
-
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
     <script type="text/javascript" src="controller/DemoController.js"></script>
     <script type="text/javascript" src="directive/viewMoreDirective.js"></script>
-
     <link type="text/css" rel="stylesheet" href="css/customStyles.css">
 </head>
+
 <body ng-controller="DemoController">
     <h1>Angular JS custom directive for expand/ collapse</h1>
     <p>
@@ -22,10 +21,7 @@
         <div ng-repeat="data in customDataList" style="width: 95%;margin-top: 10px;">
             <view-more customdata="data" callback="updateData(data, cbFn)"></view-more>
         </div>
-
-    </div><br /><br />
-    
-    <div><h2>CSS Used</h2></div><br />
-    
+    </div>
 </body>
+
 </html>
