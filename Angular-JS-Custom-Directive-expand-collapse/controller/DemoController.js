@@ -36,6 +36,7 @@ demoApp.controller('DemoController', ['$scope', '$http', function($scope, $http)
     };
 
     var cloneObject = function (obj) {
-        return JSON.parse(JSON.stringify(obj));
+        // return JSON.parse(JSON.stringify(obj));
+        return angular.copy(obj);
     }
 }]);
