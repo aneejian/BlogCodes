@@ -10,7 +10,7 @@ demoApp.controller('DemoController', ['$scope', '$http', function($scope, $http)
     
     $http.get('json/customDataSet1.json')
         .then(function(res){
-            $scope.customDataList = JSON.parse(JSON.stringify(res.data));
+            $scope.customDataList = cloneObject(res.data);
             $scope.customDataSet1 = res.data;            
         });
 
